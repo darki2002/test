@@ -1,0 +1,8 @@
+version: '0.0.1-{build}'
+
+platform:
+  - x86
+  - Any CPU
+
+build_script:
+  - cmake .
