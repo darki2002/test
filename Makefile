@@ -1,5 +1,3 @@
-CC = gcc
-
 test: helloworld.o
 	gcc -o test helloworld.o
 
