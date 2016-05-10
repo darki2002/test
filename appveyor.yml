@@ -1,8 +1,15 @@
 version: '0.0.1-{build}'
 
+clone_folder: c:\projects\myproject
+
 platform:
   - x86
   - Any CPU
 
 build_script:
   - cmake .
+
+artifacts:
+  - path: c:\projects\myproject
+    name: MyApp
+    type: zip
