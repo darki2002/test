@@ -10,6 +10,6 @@ build_script:
   - cmake .
 
 artifacts:
-  - path: c:\projects\myproject
+  - path: myproject
     name: MyApp
     type: zip
