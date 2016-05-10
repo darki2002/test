@@ -9,7 +9,9 @@ platform:
 build_script:
   - cmake .
 
+after_build:
+  - 7z a myapp.zip %APPVEYOR_BUILD_FOLDER%\
+
 artifacts:
-  - path: myproject
+  - path: myapp.zip
     name: MyApp
-    type: zip
